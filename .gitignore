@@ -1,0 +1,30 @@
+# Environment and secrets
+.env
+*.env
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.plan
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# VM disks
+*.qcow2
+*.vmdk
+*.vdi
+
+# Database dumps
+*.sql
+*.dump
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
